@@ -1,0 +1,18 @@
+Dataset : car_crashes.csv
+Total Rows : 51
+Total Columns : 8
+Columns : ['total', 'speeding', 'alcohol', 'not_distracted', 'no_previous', 'ins_premium', 'ins_losses', 'abbrev']
+Column Types : total             float64
+speeding          float64
+alcohol           float64
+not_distracted    float64
+no_previous       float64
+ins_premium       float64
+ins_losses        float64
+abbrev             object
+dtype: object
+Test:Train Data Split : 0.3
+Features : ['speeding', 'alcohol']
+Label : total
+Model : car_crashes_LinearRegression
+Model Score : 48.0
